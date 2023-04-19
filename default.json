@@ -5,7 +5,8 @@
     ":pinAllExceptPeerDependencies",
     ":automergeMinor",
     ":semanticCommitTypeAll(chore)",
-    "docker:pinDigests"
+    "docker:pinDigests",
+    ":automergeDigest"
   ],
   "labels": ["dependencies"],
   "dependencyDashboardLabels": ["dependencies"]
