@@ -5,7 +5,8 @@
     ":pinAllExceptPeerDependencies",
     ":automergeMinor",
     ":semanticCommitTypeAll(chore)",
-    "replacements:all"
+    "replacements:all",
+    "security:openssf-scorecard"
   ],
   "labels": ["dependencies"],
   "dependencyDashboardLabels": ["dependencies"],
