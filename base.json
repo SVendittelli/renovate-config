@@ -4,7 +4,6 @@
     "config:best-practices",
     ":pinAllExceptPeerDependencies",
     ":automergeMinor",
-    ":automergeDigest",
     ":semanticCommitTypeAll(chore)",
     "replacements:all"
   ],
