@@ -8,5 +8,12 @@
     "replacements:all"
   ],
   "labels": ["dependencies"],
-  "dependencyDashboardLabels": ["dependencies"]
+  "dependencyDashboardLabels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchManagers": ["docker"],
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
 }
