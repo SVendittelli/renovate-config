@@ -6,7 +6,8 @@
     ":automergeMinor",
     ":semanticCommitTypeAll(chore)",
     "replacements:all",
-    "security:openssf-scorecard"
+    "security:openssf-scorecard",
+    "npm:unpublishSafe"
   ],
   "labels": ["dependencies"],
   "dependencyDashboardLabels": ["dependencies"],
